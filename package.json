@@ -1,0 +1,31 @@
+{
+  "name": "egghdz-bigdecimal.js",
+  "version": "0.9.0",
+  "description": "BigDecimalInterface and adaptors.",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint --fix --ext \".js,.jsx,.ts,.tsx\" \"./src\""
+  },
+  "author": "Marty Zhang <marty8zhang@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/big.js": "^6.1.1",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "big.js": "^6.1.1"
+  }
+}
