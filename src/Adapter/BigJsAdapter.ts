@@ -2,7 +2,7 @@ import Big, { BigSource, RoundingMode as BigJsRoundingMode } from 'big.js';
 import BigDecimalInterface, { BigDecimalSource, RoundingMode } from '../BigDecimalInterface';
 
 export default class BigJsAdapter implements BigDecimalInterface {
-  private value: Big;
+  private readonly value: Big;
 
   constructor(number: BigSource | BigDecimalSource) {
     this.value = BigJsAdapter.getBigFromSource(number);
